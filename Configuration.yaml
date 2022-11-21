@@ -177,6 +177,19 @@ proxies:
   - {name: peace 167, server: 104.19.248.119, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
   - {name: peace 168, server: 103.21.244.84, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
   - {name: peace 169, server: 190.93.247.250, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+ 
+
+
+  - {name: peace 170, server: 172.64.97.232, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 171, server: 141.101.122.76, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 172, server: 104.21.8.29, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 173, server: 172.64.192.200, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 174, server: 172.65.159.215, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 175, server: 172.65.141.232, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 176, server: 104.16.167.161, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 177, server: 172.65.10.167, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 178, server: 172.65.208.51, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
+  - {name: peace 179, server: 172.65.161.9, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
 
 
 proxy-groups:
@@ -353,6 +366,19 @@ proxy-groups:
       - peace 167
       - peace 168
       - peace 169
+      - peace 170
+      - peace 171
+      - peace 172
+      - peace 173
+      - peace 174
+      - peace 175
+      - peace 176
+      - peace 177
+      - peace 178
+      - peace 179
+
+
+
       
   - name: ♻️ 自动选择
     type: url-test
@@ -529,6 +555,16 @@ proxy-groups:
       - peace 167
       - peace 168
       - peace 169
+      - peace 170
+      - peace 171
+      - peace 172
+      - peace 173
+      - peace 174
+      - peace 175
+      - peace 176
+      - peace 177
+      - peace 178
+      - peace 179
       
   - name: 🎯 全球直连
     type: select
