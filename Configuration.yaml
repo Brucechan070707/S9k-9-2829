@@ -415,7 +415,7 @@ proxy-groups:
       - peace 187
       - peace 188
       - peace 189
-      - peace cc
+      - cc
       
   - name: ♻️ 自动选择
     type: url-test
