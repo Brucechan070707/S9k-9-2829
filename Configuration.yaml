@@ -209,7 +209,7 @@ proxies:
   - {name: peace 197, server: 172.67.202.209, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
   - {name: peace 198, server: 198.41.194.239, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
   - {name: peace 199, server: 198.41.193.108, port: 443, type: vmess, uuid: ef21cf46-bf59-40af-8300-113db1e5f40b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q.acuteclaydoll.xyz}}, udp: true}
-
+  - {name: cc, server: c.acuteclaydoll.xyz, port: 443, type: trojan, password: cc, sni: c.acuteclaydoll.xyz, skip-cert-verify: true, udp:false}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -415,7 +415,7 @@ proxy-groups:
       - peace 187
       - peace 188
       - peace 189
-
+      - peace cc
       
   - name: ♻️ 自动选择
     type: url-test
